@@ -1,0 +1,24 @@
+.container {
+  position: relative;
+  top: 200px;
+  
+
+}
+.heading {
+  h1 {
+    text-align: center;
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid gray;
+  position: absolute;
+  left: 600px;
+  box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.25);
+}
